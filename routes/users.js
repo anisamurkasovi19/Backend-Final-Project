@@ -6,14 +6,13 @@ const jwt = require("jsonwebtoken");
 const validator = require("validator");
 const bcrypt = require("bcrypt");
 
-/*
 const { isAuth } = require("../middlewares/isAuthmiddleware");
 
 const {
   cleanupAndValidate,
   genrateJWTToken,
   sendVerificationToken,
-} = require("../utils/authUtils"); */
+} = require("../utils/authUtils"); 
 
 /* GET users listing. */
 router.get("/register", (req, res) => {

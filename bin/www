@@ -7,6 +7,11 @@
 var app = require('../app');
 var debug = require('debug')('backend-final-project:server');
 var http = require('http');
+const { config } = require("dotenv");
+
+config({
+  path: "../config.env"
+})
 
 /**
  * Get port from environment and store in Express.

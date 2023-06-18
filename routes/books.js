@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-//const { isAuth } = require("../middlewares/isAuthmiddleware");
+const { isAuth } = require("../middlewares/isAuthmiddleware");
 const bookModel = require("../models/bookModel");
-//const Ratelimiting = require("../middlewares/rateLimiting");
+const Ratelimiting = require("../middlewares/rateLimiting");
 
 /* GET books. */
 
